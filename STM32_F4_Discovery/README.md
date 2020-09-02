@@ -2,6 +2,8 @@
 
 ## Notes
 
+I am using boards by [STM32duino](https://www.stm32duino.com/).
+
 ### Selecting a proper board
 
 * `Tools` > `Board` > `STM32F4 Boards` > `STM32 Discovery F407`
@@ -15,8 +17,7 @@ In case of `Blue Pill` boards on a simpler MCU I was able to use several, but I 
 
 STM32F4 Discovery board has four leds you'll be using the most, and those are located around an accelerometer IC.
 
-I'd like to map the locations of those LEDs, assuming `ST-Link` / `SWD` pins is the top one
-and the stereo jack part is the bottom one.
+I'd like to map the locations of those LEDs, assuming `ST-Link` / `SWD` pins is the top one and the stereo jack part is the bottom one.
 
 | LED name | Pin  | Color                | Board location                                        |
 | -------- | ---- | -------------------- | ----------------------------------------------------- |
