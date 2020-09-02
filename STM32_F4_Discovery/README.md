@@ -1,4 +1,4 @@
-# STM32F4 Discovery
+# [STM32F4 Discovery](https://www.st.com/en/evaluation-tools/stm32f4discovery.html) sketches
 
 ## Notes
 
@@ -15,7 +15,7 @@ In case of `Blue Pill` boards on a simpler MCU I was able to use several, but I 
 
 ### Led map
 
-STM32F4 Discovery board has four leds you'll be using the most, and those are located around an accelerometer IC.
+[STM32F4 Discovery](https://www.st.com/en/evaluation-tools/stm32f4discovery.html) board has four leds you'll be using the most, and those are located around an accelerometer IC.
 
 I'd like to map the locations of those LEDs, assuming `ST-Link` / `SWD` pins is the top one and the stereo jack part is the bottom one.
 
@@ -25,3 +25,10 @@ I'd like to map the locations of those LEDs, assuming `ST-Link` / `SWD` pins is 
 | LD3      | PD13 | reddish orange / red | top side, close to STM32F4 MCU                        |
 | LD5      | PD14 | red                  | right side, closer to a black button labelled `Reset` |
 | LD6      | PD15 | blue                 | bottom side, closer to the stereo jack and USB port   |
+
+## Sketches
+
+| Sketch name             | Description                                                |
+| ----------------------- | ---------------------------------------------------------- |
+| [LED Blink](/LED_Blink) | Shows you how to blink 4 LEDs around the accelerometer     |
+| [4 LEDs](/4_LEDs)       | Iterates between 4 LEDs, keeping only one LED on at a time |
