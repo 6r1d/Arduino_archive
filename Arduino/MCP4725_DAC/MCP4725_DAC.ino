@@ -6,17 +6,19 @@
  * It is based on triangle wave example from Adafruit_MCP4725 demos.
  *
  * It only shows one voltage value.
+ * 
+ * On Arduino Nano / Uno and MCP4725 board, connections are:
+ * 5V - VCC
+ * GND - GND
+ * A4 - SDA
+ * A5 - SCL
  */
+
+#define VOLTAGE 4095
 
 Adafruit_MCP4725 dac;
 
-#define VOLTAGE 4095;
-
 void setup(void) {
-  // I²C addresses:
-  // MCP4725A1: 0x62 (default) or 0x63 (ADDR pin tied to VCC)
-  // MCP4725A0: 0x60 (default) or 0x61 (ADDR pin tied to VCC)
-  // MCP4725A2: 0x64 (default) or 0x65 (ADDR pin tied to VCC)
   dac.begin(0x60);
 }
 
