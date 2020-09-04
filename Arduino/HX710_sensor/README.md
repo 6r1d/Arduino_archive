@@ -6,9 +6,15 @@ There is a 24-bit ADC chip called HX710 made by [Avia Semiconductor / Xiamen](ht
 This chips are very popular in AliExpress pressure sensor boards with a DIP pressure sensor: look up something like "3.3-5V Digital Barometric Pressure Sensor Module For Arduino". You connect a soft plastic tube and you get the pressure measurement as an integer.
 You don't have an output in [Pa](https://en.wikipedia.org/wiki/Pascal_(unit)) / [Bar](https://en.wikipedia.org/wiki/Bar_(unit)) / [Psi](https://en.wikipedia.org/wiki/Pounds_per_square_inch), though, so you'll have to use another sensor to make sense of the measurement. With a low cost it is not a bad deal at all.
 
-You can easily find the pressure sensor itself, too. Look for "DIP-6 Sphygmomanometer Sensor 0-40kPa".
+### Pressure sensor IC
+
+Pressure sensor IC is easy to find, as well. Look for "DIP-6 Sphygmomanometer Sensor 0-40kPa".
+
 It apparently is called `MPS20N0040D-D` and requires 5V power input, judging by a random translated datasheet.
+Another random datasheet calls it `MPS20N0040D-S` and has info about it contacts, so I made an illustration.
 `TODO` I will have to test its sensitivity for different voltages myself someday.
+
+[![HX710](/Arduino/HX710_sensor/img/pressure_sensor.png)](/Arduino/HX710_sensor/img/pressure_sensor.svg)
 
 ## Connecting
 
