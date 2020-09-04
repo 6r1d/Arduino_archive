@@ -33,4 +33,14 @@ It probably can be used to monitor liquid level indirectly, too.
 
 I found out about it by dismantling a sphygmomanometer and decided it is worth some interest: for example, you can make a music keyboard using many sensors connected to an array of tubes, where each tube filled with air is a key. That'll give a lot of aftertouch values. ;-)
 
-Also, `MPS20N0040D-D` is cheaper than `MPXHZ6400AC6T1` by NXP, which is nice. 
+Also, `MPS20N0040D-D` is cheaper than `MPXHZ6400AC6T1` by NXP, which is nice.
+
+## Documentation
+
+* [Datasheet](https://softroboticstoolkit.com/files/sorotoolkit/files/mps20n0040d-s_datasheet.pdf) for MPS20N0040D-S pressure sensor; I am not sure about its reliability, but it is still useful
+* [Calibration manual](https://makersportal.com/blog/2020/6/4/mps20n0040d-pressure-sensor-calibration-with-arduino)
+
+## Links
+
+* [HX711 library](https://github.com/bogde/HX711). This library is for `HX711` sensors, which are a bit different. This [issue](https://github.com/bogde/HX711/issues/180) discusses how to adapt the library for `HX710` sensors.
+* A russian [article](https://habr.com/ru/post/438772/) claiming that HX711 datasheet is incorrect and working with HX711 requires some magic.
