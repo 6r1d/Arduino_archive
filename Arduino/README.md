@@ -11,3 +11,4 @@
 | [NeoPixel strip filling](/Arduino/NeoPixel_fill_strip)                 | Filling a whole NeoPixel strip with random values                |
 | [NeoPixel strip HSV filler](/Arduino/NeoPixel_Strip_HSV_filler)        | Gradually filling NeoPixel with changing values                  |
 | [MIDI: random notes](/Arduino/MIDI_random_notes)                       | Sends some random notes by MIDI                                  |
+| [MIDI input](Arduino/MIDI_input_lib_barebones), lib, bare bones        | A very basic demo of MIDI input using [Arduino MIDI library](https://github.com/FortySevenEffects/arduino_midi_library) |
