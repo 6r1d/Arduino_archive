@@ -20,3 +20,11 @@ The sensor boards typically have 4 pins and are quite easy to connect:
 | GND       | GND     |
 | SCK       | A3      |
 | OUT       | A2      |
+
+## Uses
+The pressure sensor chip itself is mostly used in portable sphygmomanometers to monitor air pressure.
+It probably can be used to monitor liquid level indirectly, too.
+
+I found out about it by dismantling a sphygmomanometer and decided it is worth some interest: for example, you can make a music keyboard using many sensors connected to an array of tubes, where each tube filled with air is a key. That'll give a lot of aftertouch values. ;-)
+
+Also, `MPS20N0040D-D` is cheaper than `MPXHZ6400AC6T1` by NXP, which is nice. 
