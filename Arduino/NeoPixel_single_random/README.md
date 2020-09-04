@@ -1,4 +1,4 @@
-# Signel NeoPixel randomizer
+# Single NeoPixel color randomizer
 
 Sets a random color for a single NeoPixel.
 
