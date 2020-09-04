@@ -2,11 +2,12 @@
 
 ## Sketches
 
-| Board                                                          | Description                                                       |
-| -------------------------------------------------------------- | ----------------------------------------------------------------- |
-| [Quadrature encoder, basic example](/Arduino/quadrature_encoder_basic) | The simplest way to connect a quadrature encoder I know of        |
-| [MCP4725_DAC](/Arduino/MCP4725_DAC)                                    | Using `MCP4725` DAC                                               |
-| [NeoPixel single random pixel](/Arduino/NeoPixel_single_random)        | Filling a single pixel with a random value at a regular interval  |
-| [NeoPixel_fill_strip](/Arduino/NeoPixel_fill_strip)                    | Filling a whole NeoPixel strip with random values                 |
-| [NeoPixel_Strip_HSV_filler](/Arduino/NeoPixel_Strip_HSV_filler)        | Gradually filling NeoPixel with changing values                   |
+| Board                                                                  | Description                                                      |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [Quadrature encoder, basic example](/Arduino/quadrature_encoder_basic) | The simplest way to connect a quadrature encoder I know of       |
+| [HX710 ADC and MPS20N0040D-D pressure sensor](/Arduino/HX710_sensor)   | Demonstrates working with `HX710` ADC without a specific library |
+| [MCP4725 DAC](/Arduino/MCP4725_DAC)                                    | Using `MCP4725` DAC                                              |
+| [NeoPixel single random pixel](/Arduino/NeoPixel_single_random)        | Filling a single pixel with a random value at a regular interval |
+| [NeoPixel strip filling](/Arduino/NeoPixel_fill_strip)                 | Filling a whole NeoPixel strip with random values                |
+| [NeoPixel strip HSV filler](/Arduino/NeoPixel_Strip_HSV_filler)        | Gradually filling NeoPixel with changing values                  |
 
