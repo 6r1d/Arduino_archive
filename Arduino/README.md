@@ -10,4 +10,4 @@
 | [NeoPixel single random pixel](/Arduino/NeoPixel_single_random)        | Filling a single pixel with a random value at a regular interval |
 | [NeoPixel strip filling](/Arduino/NeoPixel_fill_strip)                 | Filling a whole NeoPixel strip with random values                |
 | [NeoPixel strip HSV filler](/Arduino/NeoPixel_Strip_HSV_filler)        | Gradually filling NeoPixel with changing values                  |
-
+| [MIDI: random notes](/Arduino/MIDI_random_notes)                       | Sends some random notes by MIDI                                  |
