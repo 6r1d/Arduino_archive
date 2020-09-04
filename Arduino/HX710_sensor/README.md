@@ -44,3 +44,5 @@ Also, `MPS20N0040D-D` is cheaper than `MPXHZ6400AC6T1` by NXP, which is nice.
 
 * [HX711 library](https://github.com/bogde/HX711). This library is for `HX711` sensors, which are a bit different. This [issue](https://github.com/bogde/HX711/issues/180) discusses how to adapt the library for `HX710` sensors.
 * A russian [article](https://habr.com/ru/post/438772/) claiming that HX711 datasheet is incorrect and working with HX711 requires some magic.
+* A [topic](https://forum.arduino.cc/index.php?topic=486101.15) on Arduino forums about IC gain configuration
+* Another [topic](https://forum.arduino.cc/index.php?topic=568044.0) on Arduino forums about the DIY weighting machine on the `HX71x` IC
