@@ -1,6 +1,6 @@
 // IO pins
 const int SCK_PIN = A3;
-const int OUT_PIN = A2;
+const int DATA_PIN = A2;
 // Calculation-related
 long x = 0, y = 0;
 long sum = 0;
@@ -13,7 +13,7 @@ void setup() {
   // Start serial communication at 9600 baud
   Serial.begin(9600);
   // Initialize IO pins
-  pinMode(OUT_PIN, INPUT);
+  pinMode(DATA_PIN, INPUT);
   pinMode(SCK_PIN, OUTPUT);
 }
 
@@ -27,12 +27,12 @@ void read_sensor() {
   // SCK is made LL
   digitalWrite(SCK_PIN, LOW);
   // Wait until Data Line goes LOW
-  while (digitalRead(OUT_PIN) != LOW);
+  while (digitalRead(DATA_PIN) != LOW);
   // Read 24-bit data from HX711
   for (int i = 0; i < 24; i++) {
-     // Generate CLK pulse to get MSB-it at OUT_PIN-pin
+     // Generate CLK pulse to get MSB-it at DATA_PIN-pin
      clk();
-     bitWrite(x, 0, digitalRead(OUT_PIN));
+     bitWrite(x, 0, digitalRead(DATA_PIN));
      x = x << 1;
   }
   clk();

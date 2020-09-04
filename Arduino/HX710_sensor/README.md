@@ -19,7 +19,7 @@ The sensor boards typically have 4 pins and are quite easy to connect:
 | 5V / 3.3V | VCC     |
 | GND       | GND     |
 | SCK       | A3      |
-| OUT       | A2      |
+| DATA      | A2      |
 
 ## Uses
 The pressure sensor chip itself is mostly used in portable sphygmomanometers to monitor air pressure.
