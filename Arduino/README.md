@@ -18,7 +18,7 @@
 | [NeoPixel strip filling](/Arduino/NeoPixel_fill_strip)                 | Filling a whole NeoPixel strip with random values                |
 | [NeoPixel strip HSV filler](/Arduino/NeoPixel_Strip_HSV_filler)        | Gradually filling NeoPixel with changing values                  |
 
-### TODO: APA102
+### TODO: APA102 aka [superled](https://cpldcpu.wordpress.com/2014/08/27/apa102/)
 
 ### MIDI
 
