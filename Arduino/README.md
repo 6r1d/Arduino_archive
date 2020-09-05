@@ -20,6 +20,8 @@
 
 ### TODO: APA102 aka [superled](https://cpldcpu.wordpress.com/2014/08/27/apa102/)
 
+### TODO: [other addressable LEDs](https://hackaday.com/2019/03/26/can-you-live-without-the-ws2812/)
+
 ### MIDI
 
 | Board                                                                  | Description                                                      |
