@@ -26,4 +26,8 @@ Still no deal? Fine, whatever.
 
 ### MIDI 2.0
 Determine if MIDI 2.0 will require different schematics, find out about the required code changes.
-Related [article](https://www.midi.org/forum/3794-what-will-the-midi-2-0-speed-be) about MIDI 2.0 speed.
+
+#### Materials
+
+* [Forum topic](https://www.midi.org/forum/3794-what-will-the-midi-2-0-speed-be) about MIDI 2.0 speed
+* [Forum topic](https://www.midi.org/midi/forum/4791-midi-2-0-keyboards) about keyboards and MIDI 2.0 on Arduino
