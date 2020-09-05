@@ -26,3 +26,12 @@
 | ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | Output, [random notes](/Arduino/MIDI_random_notes)                     | Sends some random notes by MIDI                                  |
 | Input, [library-based, bare bones](/Arduino/MIDI_input_lib_barebones)  | A very basic demo of MIDI input using [Arduino MIDI library](https://github.com/FortySevenEffects/arduino_midi_library) |
+
+
+### Mozzi sonification library
+
+| Board                                                                  | Description                                                      |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [Mozzi analog input modulator](/Arduino/Mozzi_analog_input_modulator)  | Modulates a sine wave by an analog input                         |
+
+
