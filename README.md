@@ -21,3 +21,9 @@ Still no deal? Fine, whatever.
 | [Arduino](/Arduino)                      | AtMega 328, 5V, 8 bit                                                  |
 | [Digispark](/Digispark)                  | AtTiny 85, 5V, 8 bit                                                   |
 | [STM32 F4 Discovery](STM32_F4_Discovery) | STM32F407VG-based, lots of peripherals, 32-bit, 1-Mb Flash, 192 Kb RAM |
+
+## To-Do
+
+### MIDI 2.0
+Determine if MIDI 2.0 will require different schematics, find out about the required code changes.
+Related [article](https://www.midi.org/forum/3794-what-will-the-midi-2-0-speed-be) about MIDI 2.0 speed.
