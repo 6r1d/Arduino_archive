@@ -35,5 +35,6 @@
 | Board                                                                  | Description                                                      |
 | ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | [Mozzi analog input modulator](/Arduino/Mozzi_analog_input_modulator)  | Modulates a sine wave by an analog input                         |
+| [Mozzi audio input modulator](/Arduino/Mozzi_audio_input_modulator)    | Modulates a sine wave by audio input (fast analog, requires Mozzi patching; `TODO` document the whole process, add a demo |
 
 
