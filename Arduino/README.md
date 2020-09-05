@@ -10,11 +10,15 @@
 
 ### NeoPixel
 
+**Important**: particle.io [article](https://blog.particle.io/heads-up-ws2812b-neopixels-are-about-to-change/) about NeoPixel changes.
+
 | Board                                                                  | Description                                                      |
 | ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | [NeoPixel single random pixel](/Arduino/NeoPixel_single_random)        | Filling a single pixel with a random value at a regular interval |
 | [NeoPixel strip filling](/Arduino/NeoPixel_fill_strip)                 | Filling a whole NeoPixel strip with random values                |
 | [NeoPixel strip HSV filler](/Arduino/NeoPixel_Strip_HSV_filler)        | Gradually filling NeoPixel with changing values                  |
+
+### TODO: APA102
 
 ### MIDI
 
