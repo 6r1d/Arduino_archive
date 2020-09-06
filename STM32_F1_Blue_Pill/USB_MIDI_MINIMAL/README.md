@@ -18,7 +18,7 @@ Firmware has a size of `20892` bytes in my case.
 
 ## Writing a firmware
 
-I used a cheap chinese STLink adaptor.
+I have used a cheap chinese STLink adapter.
 I picked it by choosing `Tools` -> `Upload methods` -> `STLink`.
 Then I found BluePill board as 
 `Tools` -> `Boards` -> `STM32F1 boards (STM32Duino.com)` -> `Generic STM32F103C6/fake STM32F103C8`.
