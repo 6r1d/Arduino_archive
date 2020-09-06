@@ -16,11 +16,12 @@ Still no deal? Fine, whatever.
 
 ## Topics
 
-| Board / MCU                              | Description                                                            |
-| ---------------------------------------- | ---------------------------------------------------------------------- |
-| [Arduino](/Arduino)                      | AtMega 328, 5V, 8 bit                                                  |
-| [Digispark](/Digispark)                  | AtTiny 85, 5V, 8 bit                                                   |
-| [STM32 F4 Discovery](STM32_F4_Discovery) | STM32F407VG-based, lots of peripherals, 32-bit, 1-Mb Flash, 192 Kb RAM |
+| Board / MCU                               | Description                                                            |
+| ----------------------------------------- | ---------------------------------------------------------------------- |
+| [Arduino](/Arduino)                       | AtMega 328, 5V, 8 bit                                                  |
+| [Digispark](/Digispark)                   | AtTiny 85, 5V, 8 bit                                                   |
+| [STM32 F1 Blue Pill](/STM32_F1_Blue_Pill) | STM32F103C8T6, 3.3v, 32-bit, 64KiB flash, 20KiB SRAM                   |
+| [STM32 F4 Discovery](/STM32_F4_Discovery) | STM32F407VG, 3.3v, 32-bit, 1 Mb flash, 192 Kb RAM                      |
 
 ## To-Do
 
