@@ -12,9 +12,9 @@ First, `myMidi` class adds `Note On` and `Note Off` handlers, which write BluePi
 
 Then `setProductString` sets the device name you will see in your [DAW](https://en.wikipedia.org/wiki/Digital_audio_workstation) application, MIDI keyboard, etc.
 
-If your LED should be inverted, flip the value of `led_base_state`.
+If your LED should be inverted, flip the value of `led_base_state` variable.
 
-Firmware has a size of 20892 bytes in my case.
+Firmware has a size of `20892` bytes in my case.
 
 ## Writing a firmware
 
@@ -32,6 +32,6 @@ Then you can connect the other side of the board by USB and check if it's connec
 
 Finally, pick "Tiny Helper" in your DAW and play a note. You'll see led glowing.
 
-Windows users can be sure they'll see the device. I tested it on Windows 7 in VMPK.
+Windows users can be sure they'll see the device. I tested it on Windows 7 in [VMPK](https://vmpk.sourceforge.io/).
 
-It's ok on Android as well, I used MIDI keyboard app there to test it.
+It's ok on Android as well, I used [MIDI keyboard](https://play.google.com/store/apps/details?id=com.mobileer.midikeyboard) app there to test it.
