@@ -86,7 +86,7 @@ There is a certain timing configuration for "arduino-esp32/libraries/BLE/example
   pAdvertising->setMinPreferred(0x12);
 ```
 
-Is that a recent model of iPhone? Are those all the iPhones, or it's something to forget about to make it faster, without supporting a buggy model?
+I have no idea if it's related to all the iPhone models, or it's something to forget about to make the connection faster, so I created an [issue](https://github.com/espressif/arduino-esp32/issues/4347) to ask about that.
 
 `npi3pak`'s demo contained other timing values:
 
@@ -114,6 +114,7 @@ I can [generate](https://www.uuidgenerator.net/) UUIDs. I doubt I should change 
 
 ## Links
 
+* [NordicSemi DevZone topic](https://devzone.nordicsemi.com/f/nordic-q-a/22772/adding-midi-services) about BLE configuration for MIDI
 * [Bluetooth LE MIDI Specification](https://www.midi.org/specifications/item/bluetooth-le-midi)
 * [Details about MIDI 2.0™, MIDI-CI, Profiles and Property Exchange](https://www.midi.org/midi-articles/details-about-midi-2-0-midi-ci-profiles-and-property-exchange)
 * SparkFun's [MIDI tutorial](https://learn.sparkfun.com/tutorials/midi-ble-tutorial/all)
