@@ -19,9 +19,9 @@ You can read more about BLE MIDI packet structure in [Bluetooth LE MIDI Specific
 
 In initial example, I saw a delay. I am not using it anymore, but there is a non-blocking [example](https://forum.arduino.cc/index.php?topic=616844.0) I decided to save: simply using Arduino's [`millis()`](https://www.arduino.cc/reference/en/language/functions/time/millis/) function to check if a required amount of milliseconds passed. There are more [notes](https://randomnerdtutorials.com/why-you-shouldnt-always-use-the-arduino-delay-function/) about that.
 
-### Software
+## Software
 
-#### Linux
+### Linux
 
 I have tested BLE MIDI on `Ubuntu 18.04.5 LTS`. I had to reinstall Bluez using [this doc](https://tttapa.github.io/Pages/Ubuntu/Software-Installation/BlueZ.html), otherwise it didn't work at all. The only difference is Bluez version I have downloaded.
 
@@ -50,7 +50,7 @@ I have no idea why reinstalling `Bluez` makes everything work after, too.
 
 For playing the sounds, I am using [LMMS](https://lmms.io/lsp/), when I just want to see the keyboard, [VMPK](https://vmpk.sourceforge.io/) is enough. To list MIDI devices, I am using `aplaymidi -l`.
 
-#### Android
+### Android
 
 I was not able to simply select a BLE MIDI device in Android's Bluetooth menu. There is another method, though!
 
