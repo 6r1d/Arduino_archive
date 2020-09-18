@@ -66,6 +66,8 @@ Let's assume I am walking with an instrument far away or it powers down accident
 
 ![LMMS MIDI glitch](https://i.imgur.com/rZqPXbg.png)
 
+**UPD**: I added a StackOverflow [question](https://stackoverflow.com/questions/63956602/esp32-ble-midi-reconnection), maybe someone knows how to improve this code.
+
 ### Ambigous "iPhone connections issue"
 Connection intervals for Bluetooth MIDI devices are documented ambigously.
 
@@ -101,7 +103,7 @@ Maybe [this issue](https://github.com/espressif/arduino-esp32/issues/3578) and [
 
 ### SERVICE_UUID and CHARACTERISTIC_UUID
 
-I can [generate](https://www.uuidgenerator.net/) UUIDs. Is there a point in doing that?
+I can [generate](https://www.uuidgenerator.net/) UUIDs. I doubt I should change this, since SparkFun [MIDI tutorial](https://learn.sparkfun.com/tutorials/midi-ble-tutorial/all) tells both should be fixed according to MIDI standard.
 
 ## Sketches
 
@@ -112,4 +114,7 @@ I can [generate](https://www.uuidgenerator.net/) UUIDs. Is there a point in doin
 
 ## Links
 
+* [Bluetooth LE MIDI Specification](https://www.midi.org/specifications/item/bluetooth-le-midi)
+* [Details about MIDI 2.0™, MIDI-CI, Profiles and Property Exchange](https://www.midi.org/midi-articles/details-about-midi-2-0-midi-ci-profiles-and-property-exchange)
+* SparkFun's [MIDI tutorial](https://learn.sparkfun.com/tutorials/midi-ble-tutorial/all)
 * [An article about BLE](https://diytech.ru/projects/nachalo-raboty-s-esp32-bluetooth-v-arduino-ide) / Bluetooth Low Energy (russian)
