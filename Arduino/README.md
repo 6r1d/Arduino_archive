@@ -4,7 +4,8 @@
 
 | Board                                                                  | Description                                                      |
 | ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| [Quadrature encoder, basic example](/Arduino/quadrature_encoder_basic) | The simplest way to connect a quadrature encoder I know of       |
+| Quadrature encoder, [basic example](/Arduino/quadrature_encoder_basic) | The simplest way to connect a quadrature encoder I know of       |
+| Quadrature encoder, [example](/Arduino/quadrature_encoder_nimbus) from [Nimbus](https://github.com/otem/RDEI/blob/master/Nimbus/Nimbus.ino) synth | Another example of using a quadrature encoder |
 | [HX710 ADC and MPS20N0040D-D pressure sensor](/Arduino/HX710_sensor)   | Demonstrates working with `HX710` ADC without a specific library |
 | [MCP4725 DAC](/Arduino/MCP4725_DAC)                                    | Using `MCP4725` DAC                                              |
 
