@@ -1,5 +1,7 @@
 # ESP32 Bluetooth Low Energy demos
 
+![It's not the best photo, but I am having fun](https://i.imgur.com/U9bBBOy.jpg)
+
 ## Notes
 
 This directory contains MIDI examples for Bluetooth Low Energy.
