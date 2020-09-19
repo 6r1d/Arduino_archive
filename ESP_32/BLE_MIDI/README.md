@@ -121,4 +121,4 @@ I can [generate](https://www.uuidgenerator.net/) UUIDs. I doubt I should change 
 * [Details about MIDI 2.0™, MIDI-CI, Profiles and Property Exchange](https://www.midi.org/midi-articles/details-about-midi-2-0-midi-ci-profiles-and-property-exchange)
 * SparkFun's [MIDI tutorial](https://learn.sparkfun.com/tutorials/midi-ble-tutorial/all)
 * [An article about BLE](https://diytech.ru/projects/nachalo-raboty-s-esp32-bluetooth-v-arduino-ide) / Bluetooth Low Energy (russian)
-* [BLE_MIDI Example by neilbags](https://github.com/neilbags/arduino-esp32-BLE-MIDI/blob/master/)
+* [BLE_MIDI Example by neilbags](https://github.com/neilbags/arduino-esp32-BLE-MIDI/)
