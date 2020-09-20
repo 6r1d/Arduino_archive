@@ -40,14 +40,19 @@ class MyCallbacks : public BLEServerCallbacks
 MyCallbacks *callbacks_instance;
 
 void setup() {
-  BLEDevice::init("Bluetooth Keyboard");
+  BLEDevice::init("Bluetooth MIDI Keyboard");
+
+  // Create the BLE Server
   BLEServer *pServer = BLEDevice::createServer();
 
   callbacks_instance = new MyCallbacks();
 
   pServer->setCallbacks(callbacks_instance);
 
+  // Create the BLE Service
   BLEService *pService = pServer->createService(SERVICE_UUID);
+
+  // Create a BLE Characteristic
   pCharacteristic = pService->createCharacteristic(CHARACTERISTIC_UUID,
                     BLECharacteristic::PROPERTY_READ |
                     BLECharacteristic::PROPERTY_NOTIFY |
@@ -55,14 +60,19 @@ void setup() {
 
   pCharacteristic->setCallbacks(new MyCharacteristicCallback());
 
+  // Create a BLE Descriptor
   pCharacteristic->addDescriptor(new BLE2902());
+
+  // Start the service
   pService->start();
 
+  // Start advertising
   BLEAdvertising *pAdvertising = BLEDevice::getAdvertising();
   pAdvertising->addServiceUUID(pService->getUUID());
   pAdvertising->start();
 
   pAdvertising->setScanResponse(true);
+
   // Apparently, this timing helps
   // with some iPhone connection issue
   pAdvertising->setMinPreferred(0x06);
@@ -75,8 +85,10 @@ void setup() {
 
 void loop() {
   if (callbacks_instance->deviceConnected) {
+    // "Press" a midddle C key using MIDI
     send_note_on(pCharacteristic, 60);
     delay(100);
+    // Release a middle C key using MIDI
     send_note_off(pCharacteristic, 60);
     delay(100);
   }

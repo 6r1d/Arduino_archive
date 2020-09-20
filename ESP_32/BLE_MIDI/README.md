@@ -122,3 +122,7 @@ I can [generate](https://www.uuidgenerator.net/) UUIDs. I doubt I should change 
 * SparkFun's [MIDI tutorial](https://learn.sparkfun.com/tutorials/midi-ble-tutorial/all)
 * [An article about BLE](https://diytech.ru/projects/nachalo-raboty-s-esp32-bluetooth-v-arduino-ide) / Bluetooth Low Energy (russian)
 * [BLE_MIDI Example by neilbags](https://github.com/neilbags/arduino-esp32-BLE-MIDI/)
+
+## To-Do
+
+- [ ] Isolate packet init code in `midi_signal.h`. I wrote the code to obtain time twice and it's ugly, moreover, I am writing to the same memory for each packet and it feels ugly.
