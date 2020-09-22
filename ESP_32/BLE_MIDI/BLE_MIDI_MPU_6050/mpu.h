@@ -1,5 +1,3 @@
-#include <Wire.h>
-
 // I2C address of the MPU-6050
 const uint16_t MPU_addr = 0x68;
 int16_t A_X, A_Y, A_Z, G_X, G_Y, G_Z;
@@ -33,34 +31,4 @@ void read_mpu() {
   G_Z = Wire.read() << 8 | Wire.read(); // 0x47 (GYRO_ZOUT_H) & 0x48 (GYRO_ZOUT_L)
   ax = A_X / 32767.0; ay = A_Y / 32767.0; az = A_Z / 32767.0;
   gx = G_X / 32767.0; gy = G_Y / 32767.0; gz = G_Z / 32767.0;
-}
-
-// Adds a whitespace for pretty-printing the MPU-6050 output
-void sprint(float x) {
-  // Ignore negative values, those have '-'
-  if (x>0) { Serial.print(" "); }
-  Serial.print(x, 2);
-};
-
-// Sends accelerometer and gyroscope state to Serial
-void print_mpu_state() {
-  Serial.print("AX: "); sprint(ax); Serial.print(" ");
-  Serial.print("AY: "); sprint(ay); Serial.print(" ");
-  Serial.print("AZ: "); sprint(az);
-  Serial.print(" ");
-  Serial.print("GX: "); sprint(gx); Serial.print(" ");
-  Serial.print("GY: "); sprint(gy); Serial.print(" ");
-  Serial.print("GZ: "); sprint(gz);
-  Serial.println("");
-}
-
-void setup() {
-  Serial.begin(115200);
-  start_accelerometer();
-}
-
-void loop() {
-  read_mpu();
-  print_mpu_state();
-  delay(100);
 }
