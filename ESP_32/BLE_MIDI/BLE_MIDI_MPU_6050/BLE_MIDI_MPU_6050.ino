@@ -5,17 +5,6 @@
  * rotation.
  */
 
-/*
- * WARNING! 
- * 
- * You might need to replace "ax" with "gx" and "ay" with "gy".
- * 
- * In my case, accelerometer variables are storing
- * gyroscope data and vice versa. I am planning to make my own
- * accelerometer module to fix that, but I am not sure if the chip
- * I have there is original or not.
- */
-
 #include <Arduino.h>
 #include <BLEDevice.h>
 #include <BLEUtils.h>
