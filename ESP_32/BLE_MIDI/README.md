@@ -113,6 +113,7 @@ I can [generate](https://www.uuidgenerator.net/) UUIDs. I doubt I should change 
 | ------------------------------------------------------- | ------------------------------------------------------ |
 | [Middle C press](/ESP_32/BLE_MIDI/BLE_MIDI_ESP32)       | Presses a middle C note (MIDI `60`), releases, repeats |
 | [TTP-229 test](/ESP_32/BLE_MIDI/BLE_MIDI_ESP32_TTP229/) | Demonstrates using a TTP-229 sensor to select notes    |
+| [TTP-229 test](/ESP_32/BLE_MIDI/BLE_MIDI_MPU_6050)      | Demonstrates the usage of MPU-6050 to play notes       |
 
 ## Links
 
