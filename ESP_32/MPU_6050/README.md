@@ -30,5 +30,6 @@ Asciinema: [Playing with TDK MPU-6050 accelerometer](https://asciinema.org/a/361
 
 ## TO-DO
 
+- [ ] example's accelerometer is gyroscope and vice versa. I do not know if it's only chip that belongs to me and it's a bad clone of TDK, or any chip, at that. I have to design my own board, order components and test how it works. If you have any info, add an issue, please. 
 - [ ] fix type ambiguity; [related topic](https://stackoverflow.com/questions/3519282/why-is-this-ambiguity-here)
 - [ ] review [signal filtering](https://www.esp32.com/viewtopic.php?t=6848)
