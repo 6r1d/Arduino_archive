@@ -2,14 +2,14 @@
 
 ![Li-Ion power bank, ESP32 small batch fixture, MPU-6050 sensor](https://i.imgur.com/YgH9aDH.jpg)
 
-`MPU-6050` is a gyroscope and accelerometer module by TDK.
+`MPU-6050` is a gyroscope and accelerometer module by [TDK](https://invensense.tdk.com/).
 
 It is `I²C`-compatible, which is pretty convenient, because it's easy to connect to a microcontroller.
-I used `ESP32` to make it portable and `BLE`-compatible, too, so now you can use it to "play music", or at the very least, bother others with weird sounds.
+I used `ESP32` to make it portable and [`BLE`](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy)-compatible, too, so now you can use it to "play music", or at the very least, bother others with weird sounds.
 
 ## Description
 
-Just connect some `ESP32` board to `MPU-6050` module, like `GY-521` from AliExpress.
+Just connect some `ESP32` board to `MPU-6050` module, like `GY-521` from [AliExpress](http://aliexpress.com/).
 Upload the firmware, connect your device by `BLE`, select "Bluetooth MIDI Keyboard", turn `MPU-6050` board to play different notes and change pauses, have fun!
 
 I tested it with Android and Ubuntu Linux, these are fun to play with.
